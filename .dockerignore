@@ -5,7 +5,6 @@ uploads/
 .idea/
 *.iml
 .vscode/
-.mvn/
 docs/
 *.log
 .DS_Store
