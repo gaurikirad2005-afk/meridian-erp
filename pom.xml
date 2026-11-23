@@ -14,7 +14,7 @@
     <groupId>com.erp</groupId>
     <artifactId>meridian-erp</artifactId>
     <version>1.0.0</version>
-    <name>Meridian ERP</name>
+    <name>NexaFlow ERP</name>
     <description>Production-grade modular ERP system</description>
 
     <properties>

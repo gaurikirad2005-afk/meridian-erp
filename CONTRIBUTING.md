@@ -1,6 +1,6 @@
-# Contributing to Meridian ERP
+# Contributing to NexaFlow ERP
 
-Thanks for your interest in improving Meridian ERP! Contributions of all kinds are welcome — bug fixes, new features, documentation, and ideas.
+Thanks for your interest in improving NexaFlow ERP! Contributions of all kinds are welcome — bug fixes, new features, documentation, and ideas.
 
 ## Getting set up
 
@@ -11,7 +11,7 @@ Thanks for your interest in improving Meridian ERP! Contributions of all kinds a
 
 ## Project conventions
 
-Meridian ERP is organised as independent vertical slices — one package per module (`com.erp.<module>`) following `entity → repository → service → controller → templates`. When adding to or creating a module, mirror the existing ones (CRM is the reference). A few rules that keep the build healthy:
+NexaFlow ERP is organised as independent vertical slices — one package per module (`com.erp.<module>`) following `entity → repository → service → controller → templates`. When adding to or creating a module, mirror the existing ones (CRM is the reference). A few rules that keep the build healthy:
 
 - **Entities** extend `com.erp.common.entity.BaseEntity` (UUID id + JPA auditing) and use Lombok builders with `@Builder.Default` on initialised fields.
 - **Controllers** keep business logic in services. Constrain id path variables to UUIDs: `@GetMapping("/{id:[0-9a-fA-F-]{36}}")` so literal routes (`/new`, `/save`) are never shadowed.

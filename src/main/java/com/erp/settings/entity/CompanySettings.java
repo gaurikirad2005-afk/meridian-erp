@@ -21,7 +21,7 @@ public class CompanySettings extends BaseEntity {
 
     @Column(length = 150)
     @Builder.Default
-    private String companyName = "Meridian ERP";
+    private String companyName = "NexaFlow ERP";
 
     @Column(length = 255)
     private String logo;

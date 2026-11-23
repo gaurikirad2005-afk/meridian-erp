@@ -7,7 +7,7 @@ import org.springframework.scheduling.annotation.EnableAsync;
 import org.springframework.scheduling.annotation.EnableScheduling;
 
 /**
- * Meridian ERP — modular, production-grade enterprise resource planning system.
+ * NexaFlow ERP — modular, production-grade enterprise resource planning system.
  */
 @SpringBootApplication
 @EnableJpaAuditing(auditorAwareRef = "auditorAware")

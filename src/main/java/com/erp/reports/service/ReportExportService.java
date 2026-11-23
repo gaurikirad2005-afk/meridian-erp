@@ -142,7 +142,7 @@ public class ReportExportService {
             Font subFont = FontFactory.getFont(FontFactory.HELVETICA, 11, new Color(100, 116, 139));
             Font headFont = FontFactory.getFont(FontFactory.HELVETICA_BOLD, 13, new Color(15, 23, 42));
 
-            Paragraph title = new Paragraph("Meridian ERP — Executive Summary", titleFont);
+            Paragraph title = new Paragraph("NexaFlow ERP — Executive Summary", titleFont);
             document.add(title);
             Paragraph sub = new Paragraph("Automated report generated from live data", subFont);
             sub.setSpacingAfter(16f);

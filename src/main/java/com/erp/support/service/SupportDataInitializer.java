@@ -167,7 +167,7 @@ public class SupportDataInitializer {
 
         // ---- Knowledge Base articles ----
         String[][] articleData = {
-                {"Getting Started with Meridian ERP", "General", "Welcome to Meridian ERP. This guide walks you through your first login, navigating the dashboard, and setting up your company profile.", "onboarding,setup,getting-started"},
+                {"Getting Started with NexaFlow ERP", "General", "Welcome to NexaFlow ERP. This guide walks you through your first login, navigating the dashboard, and setting up your company profile.", "onboarding,setup,getting-started"},
                 {"How to Reset Your Password", "Account", "If you have forgotten your password, click 'Forgot password' on the login screen and follow the email instructions. Reset links expire after 30 minutes.", "password,login,security"},
                 {"Understanding Your Invoice", "Billing", "Your monthly invoice lists the subscription plan, per-seat charges and any add-ons. Taxes are applied based on your billing address.", "billing,invoice,payments"},
                 {"Configuring Single Sign-On (SSO)", "Technical", "Meridian supports SAML 2.0 SSO. Navigate to Settings > Security, upload your IdP metadata and map the required attributes.", "sso,saml,security,integration"},

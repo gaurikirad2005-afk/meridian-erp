@@ -1,4 +1,4 @@
-// Meridian ERP — shared front-end behaviour
+// NexaFlow ERP — shared front-end behaviour
 (function () {
     'use strict';
 

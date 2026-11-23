@@ -24,7 +24,7 @@ public class GlobalModelAdvice {
     public void addGlobals(Model model, HttpServletRequest request,
                            @AuthenticationPrincipal CustomUserDetails principal) {
         model.addAttribute("currentUri", request.getRequestURI());
-        model.addAttribute("appName", "Meridian ERP");
+        model.addAttribute("appName", "NexaFlow ERP");
         if (principal != null) {
             model.addAttribute("currentUser", principal);
             model.addAttribute("notificationCount", notificationService.unreadCount(principal.getUsername()));
